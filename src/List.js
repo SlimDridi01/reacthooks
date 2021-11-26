@@ -72,7 +72,7 @@ function List() {
 		},
 	]);
 	const [Input, setInput] = useState("");
-	const [rate, setRate] = useState(1);
+	const [rate, setRate] = useState(0);
 	const ratingChanged = (newRating) => {
 		setRate(newRating);
 	};
